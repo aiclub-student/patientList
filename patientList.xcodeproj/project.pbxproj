@@ -13,6 +13,10 @@
 		AA25AA9526FA88CC0052FFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA25AA9326FA88CC0052FFA8 /* Main.storyboard */; };
 		AA25AA9726FA88CE0052FFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA25AA9626FA88CE0052FFA8 /* Assets.xcassets */; };
 		AA25AA9A26FA88CE0052FFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA25AA9826FA88CE0052FFA8 /* LaunchScreen.storyboard */; };
+		AA25AAA226FA8A730052FFA8 /* PatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA25AAA126FA8A730052FFA8 /* PatientListViewController.swift */; };
+		AA25AAA426FA8A930052FFA8 /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA25AAA326FA8A930052FFA8 /* PatientCell.swift */; };
+		AA25AAA626FAA3E40052FFA8 /* PatientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA25AAA526FAA3E40052FFA8 /* PatientDetailViewController.swift */; };
+		AA25AAA826FB7EE90052FFA8 /* PatientData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA25AAA726FB7EE90052FFA8 /* PatientData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AA25AA9626FA88CE0052FFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA25AA9926FA88CE0052FFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA25AA9B26FA88CE0052FFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA25AAA126FA8A730052FFA8 /* PatientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListViewController.swift; sourceTree = "<group>"; };
+		AA25AAA326FA8A930052FFA8 /* PatientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCell.swift; sourceTree = "<group>"; };
+		AA25AAA526FAA3E40052FFA8 /* PatientDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailViewController.swift; sourceTree = "<group>"; };
+		AA25AAA726FB7EE90052FFA8 /* PatientData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				AA25AA8F26FA88CC0052FFA8 /* SceneDelegate.swift */,
 				AA25AA9126FA88CC0052FFA8 /* ViewController.swift */,
 				AA25AA9326FA88CC0052FFA8 /* Main.storyboard */,
+				AA25AAA526FAA3E40052FFA8 /* PatientDetailViewController.swift */,
+				AA25AAA126FA8A730052FFA8 /* PatientListViewController.swift */,
+				AA25AAA726FB7EE90052FFA8 /* PatientData.swift */,
+				AA25AAA326FA8A930052FFA8 /* PatientCell.swift */,
 				AA25AA9626FA88CE0052FFA8 /* Assets.xcassets */,
 				AA25AA9826FA88CE0052FFA8 /* LaunchScreen.storyboard */,
 				AA25AA9B26FA88CE0052FFA8 /* Info.plist */,
@@ -138,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA25AA9226FA88CC0052FFA8 /* ViewController.swift in Sources */,
+				AA25AAA826FB7EE90052FFA8 /* PatientData.swift in Sources */,
 				AA25AA8E26FA88CC0052FFA8 /* AppDelegate.swift in Sources */,
+				AA25AAA426FA8A930052FFA8 /* PatientCell.swift in Sources */,
+				AA25AAA226FA8A730052FFA8 /* PatientListViewController.swift in Sources */,
 				AA25AA9026FA88CC0052FFA8 /* SceneDelegate.swift in Sources */,
+				AA25AAA626FAA3E40052FFA8 /* PatientDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
