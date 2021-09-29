@@ -19,6 +19,7 @@ class Patient {
     }
 }
 
+
 class PatientData {
     static public var patients: [Patient] = []
     
